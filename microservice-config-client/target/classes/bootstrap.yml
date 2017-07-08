@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8080
+      profile: production
+      label: master    #档configserver的后端储存是git时，默认就是master
+  application:
+    name: foobar
