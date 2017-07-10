@@ -8,3 +8,5 @@ spring:
         git:
           uri: https://github.com/Rick-ye/config-repo
 
+encrypt:
+  key: foo
